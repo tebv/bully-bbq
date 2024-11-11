@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F7F7;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+/* Header */
+header {
+    background-color: #C1443A; /* Deep red color for BBQ feel */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+header .logo p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #F2A900; /* Golden yellow for warmth */
+    color: #3B3B3B;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Menu Section */
+#menu {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #C1443A;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.menu-item {
+    background-color: #E1E1E1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    color: #C1443A;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #F2A900;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #C1443A;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+#contact address {
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3B3B3B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
